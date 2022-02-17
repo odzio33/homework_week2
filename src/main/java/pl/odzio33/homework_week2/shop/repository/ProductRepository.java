@@ -14,7 +14,6 @@ import java.util.stream.Stream;
 @Repository
 public class ProductRepository {
     public List<Product> productList;
-    private int test = 0;
 
     private final Random generator;
     private static final int MIN_PRICE = 50;
